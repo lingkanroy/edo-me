@@ -274,6 +274,58 @@
         <br>
         <br>
         <!-- Register Now -->
+        <!-- form start -->
+        <!-- Modal -->
+        <div class="modal fade" id="regnow" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Register Hear</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- start-form -->
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Enter Full Name</label>
+                                <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Name">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Enter Phone Number</label>
+                                <input type="number" class="form-control" aria-describedby="emailHelp"
+                                    placeholder="+88 01912345678">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="redme@gmail.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1"
+                                    placeholder="Password">
+                            </div>
+
+
+                        </form>
+
+
+                        <!-- end-form -->
+
+
+
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- form end -->
         <div class="container bg-success row rounded">
             <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 align-items-center py-5">
                 <h3 class="text-white">Join Us Today?</h3>
@@ -282,7 +334,8 @@
             </div>
             <div
                 class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 d-flex justify-content-center align-items-center">
-                <button type="button" class="btn btn-light btn-outline-success border border-white ">Register
+                <button type="button" class="btn btn-light btn-outline-success border border-white "
+                    data-bs-toggle="modal" data-bs-target="#regnow">Register
                     Now</button>
             </div>
         </div>
